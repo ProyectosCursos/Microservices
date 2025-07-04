@@ -27,7 +27,7 @@ spec:
                   env:
                   - name: MONGO_INITDB_ROOT_USERNAME
                     value: "cursosbryan"
-                  - name: MONGO_INITDB_ROOT_PASWWORD
+                  - name: MONGO_INITDB_ROOT_PASSWORD
                     value: "Pruebasdocker10"
                   ports:
                     - containerPort: 27017
