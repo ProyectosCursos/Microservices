@@ -13,10 +13,10 @@ spec:
             name: mongo-pod
     template:
         metadata:
-        name: mongo-pod
-        labels:
-            app: microservice-libreria
             name: mongo-pod
+            labels:
+                app: microservice-libreria
+                name: mongo-pod
         spec:
             containers:
                 - name: mongo
